@@ -28,7 +28,7 @@ MAX_PER_PAGE=100
 
 Pronto, ja é para estar funcionando.
 
-## 🎈 Utilizando
+## 🎈 Recursos
 
 Nele existem algumas ferramentas uteis.
 
@@ -36,7 +36,14 @@ Nele existem algumas ferramentas uteis.
   - Ele vai capturar o parametro per_page recebido do usuario caso seja passado, e checar se ele não ultrapassa o valor maximo estabelecido pelo mantenedor.
   - Caso não seja passado, ele vai capturar o valor default setado pelo mantenedor,
 
-## ⛏️ Utilizado
+## 🧐 Outras Bibliotecas
+
+- [Enum-Basics-Extension](https://packagist.org/packages/gustavosantarosa/enum-basics-extension) - Utilizado para auxiliar nas Classes de Enums;
+- [SetSchema-Trait](https://packagist.org/packages/gustavosantarosa/setschema-trait-postgresql) - Suprir a necessidade de setar os schemas automaticamente do PostgreSQL;
+- [Validate-Trait](https://packagist.org/packages/gustavosantarosa/validate-trait) - Bindar os Requests automaticamente de acordo com o caminho do Service Pattern;
+- [Handler-Basics-Extension](https://packagist.org/packages/gustavosantarosa/handler-basics-extension) - Contem tratamento das principais exceções do laravel, e contem varios responses para lhe auxiliar;
+
+## ⛏️ Ferramentas
 
 - [php](https://www.php.net/) - linguagem
 
