@@ -6,9 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class PerPageTraitProvider extends ServiceProvider
 {
-    public $bindings = [
-        ServerProvider::class => PerPageTrait::class,
-    ];
+    public $bindings = [];
 
     /**
      * Register services.
@@ -17,7 +15,10 @@ class PerPageTraitProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->mergeConfigFrom(
+            __DIR__ . '/../config/perpage.php',
+            'perpage'
+        );
     }
 
     /**
@@ -27,6 +28,8 @@ class PerPageTraitProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+            __DIR__ . '/../config/perpage.php' => config_path('perpage.php'),
+        ], 'config');
     }
 }

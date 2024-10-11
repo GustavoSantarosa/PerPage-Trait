@@ -13,12 +13,12 @@ trait PerPageTrait
 
     public function getPerPage(): int
     {
-        $this->perPage = request()->get('per_page', env('MAX_PER_PAGE', 100));
+        $this->perPage = request()->get('per_page', config('perpage.max_per_page'));
 
-        if($this->perPage > env('MAX_PER_PAGE', 100)) {
-            $this->perPage = env('MAX_PER_PAGE', 100);
-        } elseif($this->perPage < env('MIN_PER_PAGE', 1)) {
-            $this->perPage = env('MIN_PER_PAGE', 1);
+        if($this->perPage > config('perpage.max_per_page')) {
+            $this->perPage = config('perpage.max_per_page');
+        } elseif($this->perPage < config('perpage.min_per_page')) {
+            $this->perPage = config('perpage.min_per_page');
         }
 
         return $this->perPage;
