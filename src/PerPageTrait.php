@@ -1,6 +1,6 @@
 <?php
 
-namespace GustavoSantarosa\PerPageTrait;
+namespace QuantumCode\PerPageTrait;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
