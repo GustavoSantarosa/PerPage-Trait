@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantumCode\PerPageTrait\Provider;
+namespace QuantumTecnology\PerPageTrait\Provider;
 
 use Illuminate\Support\ServiceProvider;
 

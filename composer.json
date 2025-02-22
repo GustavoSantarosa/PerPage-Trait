@@ -1,5 +1,5 @@
 {
-  "name": "quantumcode/perpage-trait",
+  "name": "quantumtecnology/perpage-trait",
   "license": "MIT",
   "homepage": "http://www.gustavosantarosa.esy.es/",
   "description": "ValidateTrait for Laravel",
@@ -9,7 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "QuantumCode\\PerPageTrait\\": "src/"
+      "QuantumTecnology\\PerPageTrait\\": "src/"
     }
   },
   "authors": [
@@ -26,7 +26,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "QuantumCode\\PerPageTrait\\Provider\\PerPageTraitProvider"
+        "QuantumTecnology\\PerPageTrait\\Provider\\PerPageTraitProvider"
       ]
     }
   }

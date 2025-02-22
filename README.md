@@ -12,7 +12,7 @@ Sempre que possivel ele sera atualizado, e esta aberto para a comunidade sugerir
 Para utilizar a classe, basta instalar ela utilizando o comando do composer:
 
 ```
-composer require quantumcode/perpage-trait
+composer require quantumtecnology/perpage-trait
 ```
 
 e chamar a função getPerPage() dentro de um lugar que va utilizar o paginate.
@@ -38,10 +38,10 @@ Nele existem algumas ferramentas uteis.
 
 ## 🧐 Outras Bibliotecas
 
-- [Enum-Basics-Extension](https://packagist.org/packages/quantumcode/enum-basics-extension) - Utilizado para auxiliar nas Classes de Enums;
-- [SetSchema-Trait](https://packagist.org/packages/quantumcode/setschema-trait-postgresql) - Suprir a necessidade de setar os schemas automaticamente do PostgreSQL;
-- [Validate-Trait](https://packagist.org/packages/quantumcode/validate-trait) - Bindar os Requests automaticamente de acordo com o caminho do Service Pattern;
-- [Handler-Basics-Extension](https://packagist.org/packages/quantumcode/handler-basics-extension) - Contem tratamento das principais exceções do laravel, e contem varios responses para lhe auxiliar;
+- [Enum-Basics-Extension](https://packagist.org/packages/quantumtecnology/enum-basics-extension) - Utilizado para auxiliar nas Classes de Enums;
+- [SetSchema-Trait](https://packagist.org/packages/quantumtecnology/setschema-trait-postgresql) - Suprir a necessidade de setar os schemas automaticamente do PostgreSQL;
+- [Validate-Trait](https://packagist.org/packages/quantumtecnology/validate-trait) - Bindar os Requests automaticamente de acordo com o caminho do Service Pattern;
+- [Handler-Basics-Extension](https://packagist.org/packages/quantumtecnology/handler-basics-extension) - Contem tratamento das principais exceções do laravel, e contem varios responses para lhe auxiliar;
 
 ## ⛏️ Ferramentas
 
@@ -49,4 +49,4 @@ Nele existem algumas ferramentas uteis.
 
 ## ✍️ Autor
 
-- [@Luis Gustavo Santarosa Pinto](https://github.com/QuantumCode) - Idea & Initial work
+- [@Luis Gustavo Santarosa Pinto](https://github.com/QuantumTecnology) - Idea & Initial work
