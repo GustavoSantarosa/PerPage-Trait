@@ -5,7 +5,7 @@
   "description": "ValidateTrait for Laravel",
   "require": {
     "php": "^8.0",
-    "illuminate/support": "^v10|^v11"
+    "illuminate/support": "^v10|^v11|^v12"
   },
   "autoload": {
     "psr-4": {
